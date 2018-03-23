@@ -18,10 +18,14 @@
 	"int": 2,
 	"wis": 7,
 	"cha": 5,
+	"save": "-",
 	"skill": {
 		"acrobatics": "+3",
 		"perception": "+1"
 	},
+	"resist": "-",
+	"immune": "-",
+	"conditionImmune": "-",
 	"senses": "",
 	"passive": 11,
 	"languages": "-",
