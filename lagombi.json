@@ -1,0 +1,66 @@
+{
+	"source": "Monster Hunter Monster Manual",
+	"name": "Lagombi",
+	"size": "L",
+	"type": {
+		"type": "beast",
+		"tags": [
+			"fanged"
+		]
+	},
+	"alignment": "unaligned",
+	"ac": "14 (natural armor)",
+	"hp": "110 (13d10+39)",
+	"speed": "40 ft.",
+	"str": 16,
+	"dex": 12,
+	"con": 16,
+	"int": 2,
+	"wis": 7,
+	"cha": 5,
+	"skill": {
+		"acrobatics": "+3",
+		"perception": "+1"
+	},
+	"senses": "",
+	"passive": 11,
+	"languages": "-",
+	"cr": "3",
+	"trait": [
+		{
+			"name": "Ice Walker",
+			"entries": [
+				"The Lagombi is accustomed to moving through the frozen tundras, as such it ignores difficult terrain for snow, ice, and other cold weather effects."
+			]
+		},
+		{
+			"name": "Slide",
+			"entries": [
+				"The Lacombi's reflexes and agility allow it to move with a burst of speed. When it moves on its turn in combat, it can double its speed while traveling in a straight line. If the Lacombi runs into a creature after moving at least 20 feet the creature must make a DC 12 Strength saving throw or be knocked prone. The Lacombi cannot use this skill again until it moves 0 feet on one of its turns."
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Multiattack",
+			"entries": [
+				"The Lacombi makes two claw attacks or one snowball attack and one claw attack."
+			]
+		},
+		{
+			"name": "Claws",
+			"entries": [
+				"Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit 12 (2d8+3) slashing damage."
+			]
+		},
+		{
+			"name": "Giant Snowball",
+			"entries": [
+				"Range Weapon Attack: +3 to hit, reach 60/100 ft., one target. Hit 7 (1d10+1) bludgeoning damage plus 5 (1d10) cold damage."
+			]
+		}
+	],
+	"reaction": [],
+	"legendary": [],
+	"page": 0
+}
