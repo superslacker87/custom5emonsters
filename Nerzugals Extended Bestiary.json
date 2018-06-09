@@ -1,0 +1,211 @@
+{
+	"_meta": {
+			"sources": [
+			{
+				"json": "NEB 3pp",
+				"abbreviation": "NEB",
+				"full": "Nerzugal's Extended Bestiary",
+				"authors": [
+					"Steven Williams/Nerzugal Role-Playing"
+				],
+				"version": "1.0",
+				"url": "https://raw.githubusercontent.com/superslacker87/custom5emonsters",
+				"targetSchema": "1.2.0"
+			}
+						]
+			},
+	"monster": [{
+			"source": "NEB 3pp",
+			"page": 0,
+			"name": "Abomination From The Deep",
+			"tokenURL": "https://i.imgur.com/rzFAvUl.png",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"C",
+				"E"
+		],
+		"ac": "14 (natural armor)",
+		"hp": {
+			"average": 45,
+			"formula": "6d10+12"
+		},
+		"speed": {
+			"walk": 50
+		},
+		"str": 18,
+		"dex": 12,
+		"con": 14,
+		"int": 7,
+		"wis": 12,
+		"cha": 8,
+		"skill": {
+			"perception": "+5"
+		},
+		"senses": "darkvision 120 ft.",
+	"passive": 14,
+	"languages": "Abyssal",
+	"cr": "6",
+	"trait": [{
+			"name": "Amphibious",
+			"entries": [
+				"The abomination can breath air and water."
+			]
+		},
+		{
+			"name": "Natural Camouflage",
+			"entries": [
+				"The abomination has advantage on stealth checks in aquatic environments."
+			]
+		}],
+		"action": [
+		{
+			"name": "Multiattack",
+			"entries": [
+				"The abomination makes three attacks: two with its claws and one with its bite."
+			]
+		},
+		{
+			"name": "Claw",
+			"entries": [
+				"Melee Weapon Attack: {@hit +7} to hit, reach 5ft., one target. Hit: 8 ({@dice 1d8+4}) slashing damage."
+			]
+		},
+		{
+			"name": "Bite",
+			"entries": [
+				"Melee Weapon Attack: {@hit +7} to hit, reach 5ft., one target. Hit: 13 ({@dice 2d8+4}) piercing damage, and the target must succeed on a DC 14 Constitution saving throw against being paralyzed. On a failed save, the creature's body begins to go numb and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is paralyzed for 1 hour."
+			]
+		},
+		{
+			"name": "Putrid Water Spray (Recharge 5-6)",
+			"entries": [
+				"The abomination unleashes a spray of foul water in a 30-foot line. Each creature in that area must make a DC 14 Dexterity saving throw, taking 16 ({@dice 3d10}) necrotic damage and 16 ({@dice 3d10}) poison damage on a failed save, or half as much damage on a successful one. The abomination can track any creature affected by this ability up to 5 miles away for the next 24 hours."
+			]
+		}
+		]
+	}]
+}
+
+
+
+
+	"action": [
+		{
+			"name": "Multiattack",
+			"entries": [
+				"The abomination makes three attacks: two with its claws and one with its bite."
+			]
+		},
+		{
+			"name": "Claw",
+			"entries": [
+				"Melee Weapon Attack: {@hit +7} to hit, reach 5ft., one target. Hit: 8 ({@dice 1d8+4}) slashing damage."
+			]
+		},
+		{
+			"name": "Bite",
+			"entries": [
+				"Melee Weapon Attack: {@hit +7} to hit, reach 5ft., one target. Hit: 13 ({@dice 2d8+4}) piercing damage, and the target must succeed on a DC 14 Constitution saving throw against being paralyzed. On a failed save, the creature's body begins to go numb and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is paralyzed for 1 hour."
+			]
+		},
+		{
+			"name": "Putrid Water Spray (Recharge 5-6)",
+			"entries": [
+				"The abomination unleashes a spray of foul water in a 30-foot line. Each creature in that area must make a DC 14 Dexterity saving throw, taking 16 ({@dice 3d10}) necrotic damage and 16 ({@dice 3d10}) poison damage on a failed save, or half as much damage on a successful one. The abomination can track any creature affected by this ability up to 5 miles away for the next 24 hours."
+			]
+		}
+	]
+}
+}
+	"source": "Nerzugal's Extended Bestiary",
+	"page": 0,
+	"name": "Abomination From The Deep",
+	"size": "M",
+	"type": "aberration",
+	"alignment": [
+		"C",
+		"E"
+	],
+	"ac": "15 (natural armor)",
+	"hp": {
+		"average": 120,
+		"formula": "16d10+32"
+	},
+	"speed": {
+		"walk": 30,
+		"swim": 60
+	},
+	"str": 18,
+	"dex": 14,
+	"con": 15,
+	"int": 13,
+	"wis": 12,
+	"cha": 7,
+	"skill": {
+		"athletics": "+7",
+		"pereption": "+4",
+		"stealth": "+5",
+		"survival": "+4"
+	},
+	"senses": "darkvision 120 ft.",
+	"passive": 14,
+	"languages": "Abyssal",
+	"cr": "6",
+	"trait": [{
+			"name": "Amphibious",
+			"entries": [
+				"The abomination can breath air and water."
+			]
+		},
+		{
+			"name": "Natural Camouflage",
+			"entries": [
+				"The abomination has advantage on stealth checks in aquatic environments."
+			]
+		}
+	],
+	"action": [{
+			"name": "Multiattack",
+			"entries": [
+				"The Creature Name makes Number and type of attacks"
+			]
+		},
+		{
+			"name": "Ability Description",
+			"entries": [
+				"Attack Style:* Attack Bonus to hit, Reach/Range, one target. *Hit:* Damage Damage Type damage"
+			]
+		},
+		{
+			"name": "General Ability Description",
+			"entries": [
+				"General Attack Description"
+			]
+		},
+		{
+			"name": "Multiattack",
+			"entries": [
+				"The abomination makes three attacks: two with its claws and one with its bite."
+			]
+		},
+		{
+			"name": "Claw",
+			"entries": [
+				"Melee Weapon Attack: {@hit +7} to hit, reach 5ft., one target. Hit: 8 ({@dice 1d8+4}) slashing damage."
+			]
+		},
+		{
+			"name": "Bite",
+			"entries": [
+				"Melee Weapon Attack: {@hit +7} to hit, reach 5ft., one target. Hit: 13 ({@dice 2d8+4}) piercing damage, and the target must succeed on a DC 14 Constitution saving throw against being paralyzed. On a failed save, the creature's body begins to go numb and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is paralyzed for 1 hour."
+			]
+		},
+		{
+			"name": "Putrid Water Spray (Recharge 5-6)",
+			"entries": [
+				"The abomination unleashes a spray of foul water in a 30-foot line. Each creature in that area must make a DC 14 Dexterity saving throw, taking 16 ({@dice 3d10}) necrotic damage and 16 ({@dice 3d10}) poison damage on a failed save, or half as much damage on a successful one. The abomination can track any creature affected by this ability up to 5 miles away for the next 24 hours."
+			]
+		}
+	]
+}
